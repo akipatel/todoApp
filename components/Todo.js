@@ -15,13 +15,8 @@ class Todo extends React.Component {
 
   render() {
     const todo = this.props.todo;
-    let text;
-
-    if (todo.is_completed) {
-      text = <strike>{todo.text}</strike>;
-    } else {
-      text = <span>{todo.text}</span>;
-    }
+    
+    let text = (todo.is_completed) ? <strike>{todo.text}</strike> : <span>{todo.text}</span>;
 
     return (
       <div className="row">
