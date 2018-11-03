@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "text": "Go for a run",
+    "is_completed": true
+  },
+  {
+    "id": 2,
+    "text": "Learn backbone",
+    "is_completed": false
+  },
+  {
+    "id": 3,
+    "text": "Learn react",
+    "is_completed": false
+  }
+]
